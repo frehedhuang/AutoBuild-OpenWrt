@@ -73,9 +73,9 @@ jobs:
         ./scripts/feeds install -a
         ./scripts/feeds install -a
         
-    - name: Import external feeds - passwall
-      working-directory: ./openwrt
-      run: |
+    #- name: Import external feeds - passwall
+    #  working-directory: ./openwrt
+    #  run: |
     #    git clone https://github.com/xiaorouji/openwrt-passwall.git package/lienol
     #    git clone https://github.com/kenzok8/openwrt-packages.git package/kenzok01
     #    git clone https://github.com/kenzok8/small.git package/small01
